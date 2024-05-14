@@ -37,6 +37,7 @@ modules:
       - gnome-terminal
       - gnome-terminal-nautilus
       - toolbox
+      - tmux
 
   # Flathub flatpaks
   - type: default-flatpaks

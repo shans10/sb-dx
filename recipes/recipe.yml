@@ -29,16 +29,15 @@ modules:
       - gcc
       - gnome-console
       - neovim
-      - wl-clipboard
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-      # - gnome-terminal
-      # - gnome-terminal-nautilus
+      - gnome-terminal
+      - gnome-terminal-nautilus
       # - tmux
-      # - toolbox
+      - toolbox
       # - vim
 
   # Flathub flatpaks

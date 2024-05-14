@@ -19,13 +19,13 @@ modules:
           # put configuration files you want in /etc/ on a booted system 
           # in /usr/etc/ in the image. read more in files module reference.
 
-    # override gschema
-    type: gschema-overrides
+  # override gschema
+  - type: gschema-overrides
     include:
       - zz1-sb.gschema.override
 
-    # install gnome-extensions
-    type: gnome-extensions
+  # install gnome-extensions
+  - type: gnome-extensions
     install:
       - gnome-shell-go-to-last-workspacegithub.com.v13
       - logomenuaryan_k.v30

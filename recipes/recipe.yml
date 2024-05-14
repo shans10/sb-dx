@@ -36,9 +36,7 @@ modules:
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       - gnome-terminal
       - gnome-terminal-nautilus
-      # - tmux
       - toolbox
-      # - vim
 
   # Flathub flatpaks
   - type: default-flatpaks

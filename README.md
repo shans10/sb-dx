@@ -1,12 +1,21 @@
 # sb-dx &nbsp; [![build-ublue](https://github.com/shans10/sb-dx/actions/workflows/build.yml/badge.svg)](https://github.com/shans10/sb-dx/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+This image is built using [BlueBuild](https://blue-build.org) project with my personal preferences baked in.
 
-After setup, it is recommended you update this README to describe your custom image.
+**Features:**
+
+- Replace toolbox with distrobox
+- Replace gnome-terminal with gnome-console
+- Visual Studio Code pre-installed
+- Google Chrome pre-installed via flatpak
+- Geary mail app installed via flatpak
+- Neovim pre-installed
+- Fish shell pre-installed
+- Alacritty terminal pre-installed
 
 ## Installation
 
-> **Warning**  
+> **Warning**
 > [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
 To rebase an existing atomic Fedora installation to the latest build:

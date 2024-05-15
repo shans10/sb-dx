@@ -6,6 +6,7 @@ shell=['fish']
 clock-format='12h'
 color-scheme='prefer-dark'
 enable-animations=true
+monospace-font-name='JetBrainsMono Nerd Font 11'
 show-battery-percentage=false
 
 [org/gnome/desktop/peripherals/mouse]

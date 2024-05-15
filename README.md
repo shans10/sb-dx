@@ -1,17 +1,16 @@
 # sb-dx &nbsp; [![build-ublue](https://github.com/shans10/sb-dx/actions/workflows/build.yml/badge.svg)](https://github.com/shans10/sb-dx/actions/workflows/build.yml)
 
 This image is built using [BlueBuild](https://blue-build.org) project with my personal preferences baked in.
+The changes in this image are highly opinionated.
 
 **Features:**
 
 - Replace toolbox with distrobox
 - Replace gnome-terminal with gnome-console
 - Visual Studio Code pre-installed
+- Neovim pre-installed
 - Google Chrome pre-installed via flatpak
 - Geary mail app installed via flatpak
-- Neovim pre-installed
-- Fish shell pre-installed
-- Alacritty terminal pre-installed
 
 ## Installation
 

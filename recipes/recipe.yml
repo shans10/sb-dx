@@ -16,7 +16,7 @@ modules:
           # copies stuff to /etc that will be needed by the installer
       - usr: /usr
           # copies config/files/usr into your image's /usr.
-          # put configuration files you want in /etc/ on a booted system 
+          # put configuration files you want in /etc/ on a booted system
           # in /usr/etc/ in the image. read more in files module reference.
 
   # override gschema
@@ -40,7 +40,6 @@ modules:
       - gcc
       - gnome-console
       - gnome-shell-extension-pop-shell
-      - neovim
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency

@@ -1,7 +1,5 @@
 [org/gnome/Console]
 audible-bell=false
-last-window-maximised=false
-last-window-size=(1528, 824)
 shell=['fish']
 
 [org/gnome/desktop/interface]

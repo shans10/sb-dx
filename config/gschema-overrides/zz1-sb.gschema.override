@@ -99,7 +99,7 @@ name='Geary Email'
 
 [org/gnome/shell]
 enabled-extensions=['gnome-shell-go-to-last-workspace@github.com', 'logomenu@aryan_k', 'pop-shell@system76.com']
-favorite-apps=['com.google.Chrome.desktop', 'code.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Console.desktop']
+favorite-apps=['google-chrome.desktop', 'code.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Console.desktop']
 last-selected-power-profile='performance'
 
 [org/gnome/shell/app-switcher]

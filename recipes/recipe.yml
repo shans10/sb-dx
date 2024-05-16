@@ -57,4 +57,51 @@ modules:
       - toolbox
       - tmux
 
+  #  these flatpak apps will be installed as default replacing pre-installed ones
+  - type: default-flatpaks
+    notify: true # Send notification after install/uninstall is finished (true/false)
+    system:
+      # If no repo information is specified, Flathub will be used by default
+      repo-url: https://flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (System)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+      install:
+        # Core GNOME apps
+        - org.gnome.Calculator        # Calculator
+        - org.gnome.Calendar          # Calendar
+        - org.gnome.Characters        # Characters
+        - org.gnome.Connections       # Connections
+        - org.gnome.Contacts          # Contacts
+        - org.gnome.Evince            # Document Viewer
+        - org.gnome.Extensions
+        - org.gnome.Geary             # Mail App
+        - org.gnome.Logs              # Logs
+        - org.gnome.Loupe             # Image Viewer
+        - org.gnome.Maps              # Maps
+        - org.gnome.NautilusPreviewer # Sushi (Nautilus Previewer)
+        - org.gnome.Snapshot          # Camera
+        - org.gnome.TextEditor        # Text Editor
+        - org.gnome.Totem             # Video Player
+        - org.gnome.Weather           # Weather
+        - org.gnome.baobab            # Disk Usage Analyzer
+        - org.gnome.clocks            # Clocks
+        - org.gnome.font-viewer       # Font Viewer
+
+        # System Apps
+        - ca.desrt.dconf-editor            # Dconf Editor
+        - com.mattjakeman.ExtensionManager # Extension Manager
+        - com.github.tchx84.Flatseal       # Flatseal (Flatpak Permission Manager)
+      remove:
+      # - org.gnome.eog
+    # A flatpak repo can also be added without having to install flatpaks,
+    # as long as one of the repo- fields is present
+    user:
+      repo-url: https://flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub-user
+      repo-title: "Flathub (User)"
+      install:
+        - com.discordapp.Discord # Discord
+        - com.google.Chrome      # Google Chrome
+        - md.obsidian.Obsidian   # Obsidian Notes
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

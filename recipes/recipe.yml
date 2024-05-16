@@ -19,12 +19,6 @@ modules:
           # put configuration files you want in /etc/ on a booted system
           # in /usr/etc/ in the image. read more in files module reference.
 
-  # enable google-chrome repo and disable gpgcheck.
-  # currently this seems to be the only sane way to install google-chrome.
-  - type: script
-    scripts:
-      - google-chrome-fix.sh
-
   # override gschema
   - type: gschema-overrides
     include:
@@ -54,6 +48,8 @@ modules:
       - gnome-console
       - gnome-shell-extension-pop-shell
       - google-chrome-stable
+    optfix:
+      - google
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency

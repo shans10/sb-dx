@@ -1,18 +1,18 @@
-[org/gnome/Console]
+[org.gnome.Console]
 audible-bell=false
 shell=['fish']
 
-[org/gnome/desktop/interface]
+[org.gnome.desktop.interface]
 clock-format='12h'
 color-scheme='prefer-dark'
 enable-animations=true
 monospace-font-name='JetBrainsMono Nerd Font 11'
 show-battery-percentage=false
 
-[org/gnome/desktop/peripherals/mouse]
+[org.gnome.desktop.peripherals.mouse]
 natural-scroll=false
 
-[org/gnome/desktop/wm/keybindings]
+[org.gnome.desktop.wm.keybindings]
 close=['<Super>q']
 minimize=['<Control><Super>h']
 move-to-workspace-1=['<Shift><Super>1']
@@ -37,78 +37,73 @@ switch-windows-backward=['<Shift><Super>grave']
 toggle-fullscreen=['<Super>space']
 toggle-maximized=['<Control><Super>m']
 
-[org/gnome/desktop/wm/preferences]
+[org.gnome.desktop.wm.preferences]
 auto-raise=true
 focus-mode='mouse'
 num-workspaces=5
 
-[org/gnome/mutter]
+[org.gnome.mutter]
 dynamic-workspaces=false
 edge-tiling=false
 experimental-features=['scale-monitor-framebuffer']
 
-[org/gnome/mutter/wayland/keybindings]
+[org.gnome.mutter.wayland.keybindings]
 restore-shortcuts=['<Control><Super>Escape']
 
-[org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/']
+[org.gnome.settings-daemon.plugins.media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/']
 home=['<Super>f']
 logout=['<Super>Escape']
 screensaver=['<Control><Super>l']
 www=['<Super>w']
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+[org.gnome.settings-daemon.plugins.media-keys.custom-keybindings.custom0]
 binding='<Shift><Super>f'
 command='firefox'
 name='Firefox'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+[org.gnome.settings-daemon.plugins.media-keys.custom-keybindings.custom1]
 binding='<Super>Return'
 command='alacritty'
 name='Alacritty'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+[org.gnome.settings-daemon.plugins.media-keys.custom-keybindings.custom2]
 binding='<Super>t'
 command='kgx'
 name='Gnome Console'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+[org.gnome.settings-daemon.plugins.media-keys.custom-keybindings.custom3]
 binding='<Super>n'
 command='alacritty -e nvim'
 name='Neovim'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+[org.gnome.settings-daemon.plugins.media-keys.custom-keybindings.custom4]
 binding='<Super>c'
 command='code --ozone-platform-hint=auto'
 name='VS Code'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
+[org.gnome.settings-daemon.plugins.media-keys.custom-keybindings.custom5]
 binding='<Control><Super>r'
 command='gnome-session-quit --reboot'
 name='Restart'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6]
+[org.gnome.settings-daemon.plugins.media-keys.custom-keybindings.custom6]
 binding='<Super>Delete'
 command='gnome-session-quit'
 name='Logout'
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7]
-binding='<Super>m'
-command='flatpak run org.gnome.Geary'
-name='Geary Email'
-
-[org/gnome/shell]
+[org.gnome.shell]
 enabled-extensions=['gnome-shell-go-to-last-workspace@github.com', 'logomenu@aryan_k', 'pop-shell@system76.com']
 favorite-apps=['google-chrome.desktop', 'code.desktop', 'org.mozilla.firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Console.desktop']
 last-selected-power-profile='performance'
 
-[org/gnome/shell/app-switcher]
+[org.gnome.shell.app-switcher]
 current-workspace-only=true
 
-[org/gnome/shell/extensions/go-to-last-workspace]
+[org.gnome.shell.extensions.go-to-last-workspace]
 shortcut-key=['<Super>Tab']
 
-[org/gnome/shell/extensions/Logo-menu]
+[org.gnome.shell.extensions.Logo-menu]
 hide-icon-shadow=false
 menu-button-icon-image=1
 show-activities-button=true
@@ -116,7 +111,7 @@ show-power-options=true
 symbolic-icon=true
 use-custom-icon=false
 
-[org/gnome/shell/extensions/pop-shell]
+[org.gnome.shell.extensions.pop-shell]
 fullscreen-launcher=true
 gap-inner=uint32 1
 gap-outer=uint32 1
@@ -125,7 +120,7 @@ snap-to-grid=true
 tile-by-default=true
 tile-enter=['<Super><Shift>Return']
 
-[org/gnome/shell/keybindings]
+[org.gnome.shell.keybindings]
 focus-active-notification=['<Shift><Super>n']
 switch-to-application-1=@as []
 switch-to-application-2=@as []

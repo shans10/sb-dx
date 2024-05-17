@@ -56,12 +56,6 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-      - gnome-classic-session
-      - gnome-shell-extension-apps-menu
-      - gnome-shell-extension-background-logo
-      - gnome-shell-extension-launch-new-instance
-      - gnome-shell-extension-places-menu
-      - gnome-shell-extension-window-list
       - gnome-software-rpm-ostree
       - gnome-terminal
       - gnome-terminal-nautilus

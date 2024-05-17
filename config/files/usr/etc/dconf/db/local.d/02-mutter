@@ -1,0 +1,7 @@
+[org/gnome/mutter]
+dynamic-workspaces=false
+edge-tiling=false
+experimental-features=['scale-monitor-framebuffer']
+
+[org/gnome/mutter/wayland/keybindings]
+restore-shortcuts=['<Control><Super>Escape']

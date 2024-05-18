@@ -9,6 +9,9 @@ fi
 # Check if output directory exists else create it
 if [ ! -d "./iso-output" ]; then
     mkdir ./iso-output
+else
+    # If directory exists then delete its contents
+    rm -rf ./iso-output/*
 fi
 
 # Build ISO image

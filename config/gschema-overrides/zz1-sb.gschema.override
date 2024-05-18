@@ -9,13 +9,6 @@ enable-animations=true
 monospace-font-name='JetBrainsMono Nerd Font 11'
 show-battery-percentage=false
 
-[org.gnome.desktop.peripherals.mouse]
-natural-scroll=false
-
-[org/gnome/desktop/peripherals/touchpad]
-natural-scroll=false
-two-finger-scrolling-enabled=true
-
 [org.gnome.desktop.wm.keybindings]
 close=['<Super>q']
 minimize=['<Control><Super>h']

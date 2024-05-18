@@ -62,14 +62,6 @@ current-workspace-only=true
 [org.gnome.shell.extensions.go-to-last-workspace]
 shortcut-key=['<Super>Tab']
 
-[org.gnome.shell.extensions.Logo-menu]
-hide-icon-shadow=false
-menu-button-icon-image=1
-show-activities-button=true
-show-power-options=true
-symbolic-icon=true
-use-custom-icon=false
-
 [org.gnome.shell.extensions.pop-shell]
 fullscreen-launcher=true
 gap-inner=uint32 1

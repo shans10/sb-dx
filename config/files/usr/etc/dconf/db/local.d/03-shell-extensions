@@ -1,0 +1,7 @@
+[org/gnome/shell/extensions/Logo-menu]
+hide-icon-shadow=false
+menu-button-icon-image=1
+show-activities-button=true
+show-power-options=true
+symbolic-icon=true
+use-custom-icon=false

@@ -48,7 +48,6 @@ modules:
       - alacritty
       - code
       - fish
-      - gcc
       - gnome-console
       - gnome-shell-extension-pop-shell
     remove:
